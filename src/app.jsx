@@ -7,7 +7,7 @@ import EditForm from "./edit-form";
 import Bar from "./bar";
 import Users from "./users";
 
-import "./app.css";
+import "./App.css";
 
 const App = ({ edit, editUserId }) => {
   return (
