@@ -1,0 +1,45 @@
+.form {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form__item,
+.form__button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  background-color: white;
+}
+
+.form__item {
+  margin-top: 10px;
+}
+
+.form__button {
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.form__button:hover {
+  border-color: rgb(99, 88, 88);
+}
+
+.form__button:focus {
+  outline: none;
+}
+
+.form__header {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 400px) {
+  .form {
+    width: calc(100% - 40px);
+  }
+}

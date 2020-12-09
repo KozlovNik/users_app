@@ -1,0 +1,43 @@
+.user {
+  margin: 0 auto 20px;
+  width: 880px;
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user__paragraph {
+  margin-bottom: 5px;
+}
+
+.user__button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.user__button--edit {
+  color: green;
+}
+
+.user__button--delete {
+  color: red;
+}
+
+.user__button:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 900px) {
+  .user {
+    width: calc(100% - 80px);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
